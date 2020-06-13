@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    height: 200px;
+    width: 50%;
+}
+
+.first-section {
+    display: flex;
+}
+
+.second-section,
+.third-section {
+    display: flex;
+    justify-content: center;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+}
+
+.yellow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    border-radius: 50%;
+    width: 200px;
+}
+
+button {
+    margin-top: 100px;
+    padding: 20px;
+}
